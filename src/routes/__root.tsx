@@ -8,6 +8,7 @@ import {
 import appCss from '../styles.css?url'
 
 import type { QueryClient } from '@tanstack/react-query'
+import { Toaster } from '#/components/ui/sonner.tsx';
 
 interface MyRouterContext {
   queryClient: QueryClient
@@ -43,8 +44,9 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       <head>
         <HeadContent />
       </head>
-      <body>
+      <body className="font-sans antialiased">
         {children}
+        <Toaster/>
         <Scripts />
       </body>
     </html>
