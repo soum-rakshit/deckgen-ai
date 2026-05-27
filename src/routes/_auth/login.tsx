@@ -17,7 +17,7 @@ export const Route = createFileRoute('/_auth/login')({
         to:"/",
       })
     }
-
+    
   },
   component: LoginPage,
 })

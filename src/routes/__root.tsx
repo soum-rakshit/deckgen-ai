@@ -56,7 +56,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       <head>
         <HeadContent />
       </head>
-      <body className="font-sans antialiased bg-background text-foreground selection:bg-primary/20">
+      <body className="font-sans antialiased bg-background text-foreground selection:bg-primary/20 flex items-center justify-center">
         {children}
         <Toaster/>
         <Scripts />

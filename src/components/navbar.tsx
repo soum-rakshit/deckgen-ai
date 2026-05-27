@@ -57,8 +57,8 @@ export default function Navbar() {
             <div className="size-9 rounded-xl bg-primary flex items-center justify-center">
               <Presentation className="size-5 text-primary-foreground" />
             </div>
-            <span className="font-semibold text-lg text-foreground">
-              PPT<span className="text-primary">.ai</span>
+            <span className="font-semibold text-lg text-primary">
+              DeckGen<span className="text-foreground">.ai</span>
             </span>
           </Link>
 
